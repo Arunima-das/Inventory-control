@@ -1,0 +1,130 @@
+*{
+    font-family:sans-serif;
+}
+ body#home{
+    background-image:url(/media/main.jpg);
+    background-size: 1000px 750px;
+    background-repeat: no-repeat; 
+}
+nav{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+nav h1{
+    color: #ff5361;
+}
+nav ul{
+    flex:1;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 25px;
+}
+nav ul li a{
+    color: #ff5361;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #000;
+}
+.login-btn{
+    background: #ff5361;
+    color:#fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 30px;
+    margin-left: 25px;
+    transition: 0.5s;
+}
+.login-btn:hover{
+    transform: scale(0.9);
+}
+
+
+
+/*Login*/
+
+.container{
+    width: 380px;
+    margin:10% auto;
+    border-radius: 25px;
+    background-color: rgba(0,0,0,0.1);
+}
+.header{
+    text-align: center;
+    padding-top: 80px; 
+}
+
+.header h1{
+    color: #333;
+    font-size: 45px;
+    margin-bottom: 80px;
+}
+.main{
+    text-align: center;
+}
+.main input,button{
+    width:300px;
+    height:40px;
+    border: none;
+    outline: none;
+    padding-left: 40px;
+    box-sizing:border-box;
+    font-size: 15px;
+    color: #333;
+    margin-bottom:40px;
+}
+.main button{
+    padding-left: 0;
+    background-color: #83acf1;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.main button:hover{
+    box-shadow: 2px 2px 5px #555;
+    background-color: #7799d4;
+}
+
+.main span{
+    position: relative;
+}
+ .main i{
+    position: absolute;
+    left:15px;
+    color: #333;
+    font-size: 16px;
+    top:2px;
+ }
+
+ /*     admin    */
+ nav#admin{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+nav#admin h1{
+    color: rgb(31, 26, 95);
+}
+nav#admin ul{
+    flex:1;
+    text-align: left;
+}
+
+nav#admin ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 25px;
+}
+nav#admin ul li a{
+    color: rgb(31, 26, 95);
+    text-decoration: none;
+}
+nav#admin ul li a:hover{
+    color: #00f;
+}
